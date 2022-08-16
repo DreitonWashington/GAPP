@@ -1,6 +1,6 @@
 ### `npm install`
 
-Instalar dependências
+Instalar dependências para o projeto funcionar perfeitamente
 
 ### `npm run convert`
 
