@@ -1,0 +1,67 @@
+header{
+    
+    
+}
+.menu{
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    background-color: $default-back-color;
+
+    &__ul{
+        align-self: center;
+        
+        ul{
+            display: flex; 
+            list-style-type: none;
+            margin: 0 auto;
+            
+    
+            li{
+                margin: 5px 15px;
+                color: $default-color;
+                align-self: center;
+                cursor: pointer;
+
+                &:hover{
+                    color: #ccc;
+                    border-bottom: 3px solid #ccc;
+                }
+
+                
+            }
+            a:nth-child(5){
+                li{
+                    color: white;
+                    cursor: pointer;
+                }
+                align-self: center;
+                padding: 8px;
+                margin: -8px 15px;
+                background-color: $default-color;
+               
+                border-bottom: none;
+
+                &
+                li:hover{
+                    border-bottom: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    &__logo{
+        margin: 0 auto;
+        width: 298px;
+        height: 133px;
+        margin-left: 50px;
+        
+        img{
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        
+    }
+ }
